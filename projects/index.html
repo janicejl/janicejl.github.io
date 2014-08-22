@@ -1,0 +1,57 @@
+---
+layout: default
+title: Projects
+---
+
+<div>Below are some projects I have taken part in before. Through each project, I try to both improve my skills, as well as acquire new skills.</div>
+
+<br />
+
+{% for post in paginator.posts %}
+<div class="project group">
+  <hgroup>
+    <h3>{{ post.title }}</h3>
+    <h3 class="subheading">{{ post.when }}</h3>
+    <h4 class="subheading">Skills - {{ post.skills | array_to_sentence_string }}</h4>
+  </hgroup>
+  {% if post.image != "" && post.image != nil %}
+    <img src="{{ site.baseurl }}/projects/images/{{ post.image }}" class="padding-10" />
+  {% endif %}
+  <div class="project-details">
+    {{ post.content }}
+  </div>
+  {% for link in post.links %}
+    <div class="group padding-5">
+      <a href="{{ link.site }}" class="btn btn-outline btn-blue right" target="_blank">{{ link.text }}</a>
+    </div>
+  {% endfor %}
+  <br />
+</div>
+{% endfor %}
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+  <div class="pagination group">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline btn-black">&laquo; Prev</a>
+  {% else %}
+    <button class="btn btn-black btn-disabled"><span>&laquo; Prev</span></button>
+  {% endif %}
+  
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <button class="btn btn-black btn-disabled"><em>{{ page }}</em></button>
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline btn-black">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="btn btn-outline btn-black">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+  
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline btn-black">Next &raquo;</a>
+  {% else %}
+    <button class="btn btn-black btn-disabled"><span>Next &raquo;</span></button>
+  {% endif %}
+  </div>
+{% endif %}
