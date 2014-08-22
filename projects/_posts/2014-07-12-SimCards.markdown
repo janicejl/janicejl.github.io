@@ -1,0 +1,19 @@
+---
+layout: default
+title: "SimCards"
+when: "12-13 July 2014"
+image: ""
+skills:
+  - NodeJS
+  - SocketIO
+  - Android application development
+links:
+  - text: "SimCard Github Repo"
+    site: https://github.com/SimCards
+---
+
+Part of the aim of simcard was to create an Android application that will allow multiplayer gameplay on multiple devices.The catch was that we didn't want to restrict the type of game being played. We want them to be able to play goldfish, or poker, whatever they wanted. 
+
+Whilst we didn't manage to completely finish in the allocated time, we were able to create the ground work for easily extending card games. We also managed to get different devices talking to each other about the game, but not integrated with the game yet. 
+
+Overall, I learnt a lot through this project. Hope to get the socket io integrated soon. 
