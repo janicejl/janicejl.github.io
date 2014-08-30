@@ -11,12 +11,12 @@ title: ""
 Hello, my name is Janice Leung. I am currently a senior studying computer science at the University of Southern California.
 
 ### Objective
-At the moment, I am seeking a **Full Time** job after I graduate in May 2015. I hope to be working daily to solve interesting and challenging problems. I have an interest in _Data and Information Retrieval_ as well as _computer security_.
+At the moment, I am seeking a **Full Time** job after I graduate in May 2015. I hope to be working daily to solve interesting and challenging problems. I have an interest in _Data Information Management and Retrieval_ as well as _Computer Security_.
 
-I am also looking for a **spring 2015 internship/co-op** at a Southern California based startup. 
+I am also looking for opportunities for **spring 2015 internship/co-op** in California. 
 
 ### Interests and Goals
-I am interested in broaden my experiences in all aspects and grow as a full stack developer. I always look for opportunities to expand my experiences in coding and try to develop on a variety of different platforms. 
+I am interested in broadening my experiences in all aspects and grow as a full stack developer. I always look for opportunities to expand my experiences in programming and try to develop on a variety of different platforms. 
 
 Please feel free to contact me if you think I would be appropriate for a project. Thank you. 
 
