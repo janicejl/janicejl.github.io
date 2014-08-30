@@ -12,5 +12,5 @@ links:
     site: "http://www.windowsphone.com/en-us/store/app/24/2a1ca634-642c-480b-a69b-1fb3d36f8f00"
 ---
 
-A mathematical based game for the Windows Phone. Players have to find combinations to make 24 using the four numbers provided and arithmetic symbols. 
+A mathematical based game for the Windows Phone. Players have to find combinations to make the number 24 using four randomly provided numbers and arithmetic symbols. 
 

@@ -9,5 +9,5 @@ skills:
   - JavaScript
 ---
 
-During the summer, I collaborated through email with a board member of ISHKU and helped to redesigned thier society website in time for the new school year. 
+During the summer, I collaborated through email with a board member of ISHKU and helped to redesign thier society website in time for the new school year. 
 The website was created using HTML, CSS, and Javascript in Adobe Dreamweaver. The Graphics were created in Adobe Photoshop and GNU Image Manipulation Program (GIMP). 
