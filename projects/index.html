@@ -42,7 +42,7 @@ title: Projects
     {% if page == paginator.page %}
       <button class="btn btn-black btn-disabled"><em>{{ page }}</em></button>
     {% elsif page == 1 %}
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline btn-black">{{ page }}</a>
+      <a href="{{ '/projects/index.html' | prepend: site.baseurl | replace: '//', '/' }}" class="btn btn-outline btn-black">{{ page }}</a>
     {% else %}
       <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="btn btn-outline btn-black">{{ page }}</a>
     {% endif %}
