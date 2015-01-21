@@ -13,6 +13,8 @@ skills:
 links:
   - text: "Oickos.com"
     site: "http://oickos.com"
+  - text: "Challenge Post Submission"
+    site: "http://rootstech.challengepost.com/submissions/31172-oickos-family-memories-for-every-generation"
 ---
 
 Oickos is a web service for combined with social media to store, share and celebrate family history. The name Oickos, an adaptation of the word greek work oikos, meaning family. Oickos allows users to sign in with the facebook accounts and create profile pages for family members. They can then upload photos, videos, documents and other type of multimedia for them. Whilst at the moment, it is only possible to upload files from a users computer, progress is being made to allow more social media integrations. 
