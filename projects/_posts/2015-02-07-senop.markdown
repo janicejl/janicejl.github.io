@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Senop"
+when: "February-March 2015"
+image: ""
+skills:
+  - Flask
+  - Python
+  - Celery
+  - Rabbit-mq
+  - JavaScript
+  - D3.js
+links:
+  - text: "Visit Senop"
+    site: "https://senop.herokuapp.com"
+  - text: "Challenge Post Submission"
+    site: "__UPDATE__"
+---
+
+Senop description
+
+During 7-9th February, I took part in the annual Brown University hackathon, Hack@Brown, with 3 other teammates (one also from USC, one from RPI and one from RISD). In the 28 hours, we were able to build a functional prototype of Senop to demonstrate to judges. We were given the opportunity to present Senop on stage as a finalist, and managed to win the 'Best Networking Porject' sponsored by Akamai. 
+
+Since the hackathon, I wanted to improve the speed and user experience of Senop. Due to the 28-hour time constraint during the hackathon, each search request and dashboard refresh does a lot of processing and computation to provide the data needed on the dashboard. To do this, I moved the processing into a worker process with celery and rabbit-mq, and added an intermediate loading screen. 
+
