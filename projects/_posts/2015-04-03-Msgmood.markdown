@@ -1,0 +1,23 @@
+---
+layout: default
+title: "Msgmood: Monitoring Customer Satisfaction at a Glance"
+when: "April 2015 - Present"
+image: ""
+skills:
+  - Flask
+  - Python
+  - Celery
+  - Rabbit-mq
+  - sqlite3
+  - Context.IO API
+  - Mashape API
+links:
+  - text: "Challenge Post Submission"
+    site: "http://challengepost.com/software/msgmood"
+---
+
+Msgmood analyzes a company's support email and provides information on the mood of your customers. Using the Context.IO API to access emails and Mashape's sentiment analysis APIs, Msgmood aims to triage hundreds of emails and help make better business decisions.
+
+Inspiration for the product came from the thought that companies get hundreds of emails through their __Contact Us__ portals, and existing enterprise email systems only provide information numbers such as how many were opened. And when handling emails, customer support agents are only able to get a single customer perspective of how they felt about the company, but not a general big picture view of how customers view the company. Msgmood gives more information through analyze of all emails to tell the company how many were positive, negative, emotional or contained questions. We also give trends on sentiment over time.
+
+Me and my partner plans to continue working on this project.
