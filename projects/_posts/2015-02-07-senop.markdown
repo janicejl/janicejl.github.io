@@ -2,7 +2,7 @@
 layout: default
 title: "Senop"
 when: "February-March 2015"
-image: ""
+image: "senop.png"
 skills:
   - Flask
   - Python
