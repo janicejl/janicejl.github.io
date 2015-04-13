@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Oickos: Family Memories for Every Generation"
+title: "Family Attic: Family Memories for Every Generation"
 when: "November 2014 - Present"
 image: "oickos.png"
 skills:
@@ -28,4 +28,4 @@ Oickos started off at TechLA's 28 hour hackathon on November 21-22. During this 
 
 Afterwards, we decided to enter Oickos into the Root Tech Innovators challenge, an online challenge hosted on Challenge Post focusing on innovations in the family history industry. Therefore, we continued working on it until the deadline for the challenge on January 15th 2015. During this time we managed to add Facebook Login, public and privacy links for sharing on facebook, adding multiple users as editors of profile pages, more multimedia integration, and a major UI overhaul. 
 
-We have many more plans for Oickos in the future, please keep an eye out for it. 
+In February, we entered Oickos into a Business Plan competition. During the planning and research, we decided that it would be beneficial to rename the project to Family Attic as it conveyed more information about what the product is about compared to Oickos. Although we only made it to the semi-finals (only 6 out of 62 teams proceed on to the finals), I learnt a lot about the process of reseaching and developing a business idea. From there, we decided to take a break on Family Attic until we get a clearer picture of what precisely would help the user. 
