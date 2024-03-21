@@ -78,10 +78,6 @@ author:
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@jrumtime5515"
 
-main:
-  - title: "Drums"
-    url: /drums
-
 footer:
   links:
     - label: "Website"
